@@ -1,0 +1,25 @@
+name: baobab_digital
+description: Baobab Digital, cartes de visite numériques et mini-sites pour petites entreprises.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "icon.png"
+  adaptive_icon_background: "#F2B632"
+  adaptive_icon_foreground: "icon_fg.png"
